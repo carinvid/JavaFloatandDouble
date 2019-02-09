@@ -1,0 +1,16 @@
+package com.company;
+
+public class Main {
+
+    public static void main(String[] args) {
+        //width of Int = 32 (4 bytes)
+	int myIntvalue=5/2;
+        //width of float = 64 (8 bytes)
+	float myFloatValue= 5f;
+        //width of Int = 64 (8 bytes)
+	double mynewdouble=5d;
+        System.out.println("my Int value=" + myIntvalue);
+        System.out.println("my Float value=" + myFloatValue);
+        System.out.println("my Double value=" + mynewdouble);
+    }
+}
